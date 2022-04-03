@@ -3,7 +3,7 @@ from fastapi import Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 
-templates = Jinja2Templates(directory=directory="templates")
+templates = Jinja2Templates(directory="templates")
 general_pages_router = APIRouter()
 
 @general_pages_router.get("/")
