@@ -6,3 +6,10 @@ jinja2
 
 #for static files
 aiofiles
+
+#for database
+sqlalchemy
+psycopg2
+
+#for loading env variables
+python-dotenv
