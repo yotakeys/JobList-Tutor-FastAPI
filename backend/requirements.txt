@@ -13,3 +13,9 @@ psycopg2
 
 #for loading env variables
 python-dotenv
+
+#for email validation
+pydantic[email]
+
+#for hashing
+passlib[bcrypt]
